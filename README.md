@@ -1,2 +1,5 @@
 # Jogo-JokenPo
- Jogo JokenPô
+ Jogo JokenPô criado utilizando as linguagens
+ *Javascript
+ *HTML
+ *CSS
