@@ -1,0 +1,31 @@
+body{
+ background-image: url(../Imagens/pexels-lexi-lauwers-2921140.jpg); 
+ background-repeat: no-repeat; 
+ background-size: cover 100%; 
+ 
+ 
+}
+
+header{
+    text-align: center;
+    color: white;
+    font: normal 22pt Arial;
+}
+
+section{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font: normal 15px Arial;
+    padding: 15px;
+    width: 1000px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.315);
+}
+
+
+footer{
+
+
+}
