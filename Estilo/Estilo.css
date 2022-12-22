@@ -1,7 +1,7 @@
 body{
  background-image: url(../Imagens/pexels-lexi-lauwers-2921140.jpg); 
  background-repeat: no-repeat; 
- background-size: cover 100%; 
+ background-size: 100%; 
  
  
 }
@@ -12,20 +12,36 @@ header{
     font: normal 22pt Arial;
 }
 
-section{
+.principal{
     text-align: center;
     color: rgb(0, 0, 0);
     font: normal 15px Arial;
     padding: 15px;
-    width: 1000px;
+    width: 50%;
     margin: auto;
     background: white;
     border-radius: 10px;
     box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.315);
 }
 
+.principal img {
+    width: auto;
+    height: auto;
+}
 
-footer{
+.principal #pc {
+    width: 100%;
+}
+
+
+
+
+@media screen and (max-width: 480px){
+    body, header, section, .principal {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
 
 
 }
